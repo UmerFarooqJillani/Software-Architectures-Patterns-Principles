@@ -1,5 +1,12 @@
 # MVVM-C (Model-View-ViewModel-Coordinator) Architecture
 
+
+- It is an extension of MVVM, adding a Coordinator layer to manage navigation and app flow.
+- Keep ViewControllers/Views clean from navigation logic.
+- Make apps more modular, testable, and scalable.
+- Handles transitions, routing, and app navigation, keeps ViewControllers clean
+- **Coordinator** listens to navigation events (e.g., button taps) and presents new screens.
+
 ## Why MVVM-C?
 - **MVC:** too coarse, logic leaks into widgets as app grows → ❌
 - **MVP:** ok, but Presenters get bloated; navigation unclear → ❌
